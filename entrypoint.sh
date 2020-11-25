@@ -31,7 +31,7 @@ pacmd set-default-sink v1  # Set the `v1` as the default sink device
 pacmd set-default-source v1.monitor  # Set the monitor of the v1 sink to be the default source
 
 # 3. Firefox
-./chrome.sh &
+./firefox.sh & # Or ./chrome.sh &
 sleep 0.5  # Wait a bit for firefox to start before moving on
 xdotool mousemove 1 1 click 1  # Move mouse out of the way so it doesn't trigger the "pause" overlay on the video tile
 
